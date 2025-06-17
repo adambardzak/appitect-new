@@ -36,7 +36,7 @@ export default function Services() {
           transition={{ duration: 0.7 }}
           className="mb-12 max-w-6xl mx-auto"
         >
-          <span className="text-2xl font-light text-gray-900 dark:text-white">
+          <span className="text-xl md:text-2xl font-light text-gray-900 dark:text-white">
             {t("title")}
           </span>
         </motion.div>
@@ -58,7 +58,7 @@ export default function Services() {
                 <Terminal className="h-6 w-6 mt-1 text-blue-600 flex-shrink-0" />
               </motion.div>
               <div>
-                <h3 className="font-semibold mb-4 text-xl text-gray-900 dark:text-white">
+                <h3 className="font-semibold mb-4 text-lg md:text-xl text-gray-900 dark:text-white">
                   {t("webApps.title")}
                 </h3>
                 <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
@@ -81,7 +81,7 @@ export default function Services() {
                 <Code className="h-6 w-6 mt-1 text-purple-600 flex-shrink-0" />
               </motion.div>
               <div>
-                <h3 className="font-semibold mb-4 text-xl text-gray-900 dark:text-white">
+                <h3 className="font-semibold mb-4 text-lg md:text-xl text-gray-900 dark:text-white">
                   {t("websites.title")}
                 </h3>
                 <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
@@ -104,7 +104,7 @@ export default function Services() {
                 <Wrench className="h-6 w-6 mt-1 text-green-600 flex-shrink-0" />
               </motion.div>
               <div>
-                <h3 className="font-semibold mb-4 text-xl text-gray-900 dark:text-white">
+                <h3 className="font-semibold mb-4 text-lg md:text-xl text-gray-900 dark:text-white">
                   {t("mobileApps.title")}
                 </h3>
                 <p className="text-gray-700 dark:text-gray-300 leading-relaxed">

@@ -21,7 +21,7 @@ export default function Footer() {
       transition={{ duration: 0.7 }}
       className="px-6 py-10 border-t border-dashed border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-800"
     >
-      <div className="max-w-7xl mx-auto flex justify-between items-center text-sm text-gray-500 dark:text-gray-400">
+      <div className="max-w-7xl mx-auto flex justify-between items-center text-xs md:text-sm text-gray-500 dark:text-gray-400">
         <div>
           © {new Date().getFullYear()} {t("copyright")}
         </div>

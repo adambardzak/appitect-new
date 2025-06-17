@@ -39,13 +39,13 @@ export default function Hero() {
             <motion.h1
               variants={fadeInUp}
               transition={{ duration: 0.7, delay: 0.2 }}
-              className="text-4xl md:text-5xl lg:text-6xl font-normal mb-8 leading-tight text-gray-900 dark:text-white items-center gap-6"
+              className="text-3xl md:text-5xl lg:text-6xl font-normal mb-8 leading-tight text-gray-900 dark:text-white items-center gap-6"
             >
               {t("title")}
             </motion.h1>
             <motion.div
               variants={staggerContainer}
-              className="text-lg md:text-xl text-gray-700 dark:text-gray-300 space-y-6 max-w-4xl"
+              className="md:text-xl text-gray-700 dark:text-gray-300 space-y-6 max-w-4xl"
             >
               <motion.p variants={fadeInUp}>{t("description1")}</motion.p>
               <motion.p variants={fadeInUp}>{t("description2")}</motion.p>

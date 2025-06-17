@@ -64,14 +64,14 @@ export default function Contact() {
           transition={{ duration: 0.7 }}
           className="mb-12 max-w-5xl mx-auto"
         >
-          <span className="text-2xl font-light text-gray-900 dark:text-white">
+          <span className="text-xl md:text-2xl font-light text-gray-900 dark:text-white">
             {t("title")}
           </span>
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-16 mb-16 max-w-5xl mx-auto">
           <motion.div variants={fadeInLeft} transition={{ duration: 0.7 }}>
-            <h3 className="font-semibold mb-6 text-green-700 dark:text-green-400 text-xl">
+            <h3 className="font-semibold mb-6 text-green-700 dark:text-green-400 text-lg md:text-xl">
               {t("goodFit.title")}
             </h3>
             <motion.ul
@@ -96,7 +96,7 @@ export default function Contact() {
           </motion.div>
 
           <motion.div variants={fadeInRight} transition={{ duration: 0.7 }}>
-            <h3 className="font-semibold mb-6 text-red-700 dark:text-red-400 text-xl">
+            <h3 className="font-semibold mb-6 text-red-700 dark:text-red-400 text-lg md:text-xl">
               {t("badFit.title")}
             </h3>
             <motion.ul
@@ -128,9 +128,9 @@ export default function Contact() {
           className="bg-black dark:bg-gray-800 text-white p-10 max-w-4xl mx-auto hover:bg-gray-900 dark:hover:bg-gray-700 transition-all duration-700 group"
         >
           <div className="mb-6">
-            <span className="text-2xl">{t("cta.title")}</span>
+            <span className="text-xl md:text-2xl">{t("cta.title")}</span>
           </div>
-          <div className="mb-8 text-lg">
+          <div className="mb-8 md:text-lg">
             {t("cta.email")}{" "}
             <span className="bg-white dark:bg-gray-200 text-black px-3 py-2 hover:bg-yellow-200 dark:hover:bg-yellow-300 transition-colors duration-200 cursor-pointer">
               {t("cta.emailAddress")}
@@ -151,7 +151,7 @@ export default function Contact() {
               {t("cta.requirements.2")}
             </li>
           </ul>
-          <div className="text-gray-400 dark:text-gray-500 text-base">
+          <div className="text-gray-400 dark:text-gray-500 md:text-base">
             {t("cta.response")}
           </div>
         </motion.div>

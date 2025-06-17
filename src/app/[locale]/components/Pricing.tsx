@@ -73,7 +73,7 @@ export default function Pricing() {
           transition={{ duration: 0.7 }}
           className="mb-12 max-w-6xl mx-auto"
         >
-          <span className="text-2xl font-light text-gray-900 dark:text-white">
+          <span className="text-xl md:text-2xl font-light text-gray-900 dark:text-white">
             {t("title")}
           </span>
         </motion.div>
@@ -92,7 +92,7 @@ export default function Pricing() {
               }`}
             >
               <h3
-                className={`font-semibold mb-4 text-xl transition-colors duration-200 text-gray-900 dark:text-white ${
+                className={`font-semibold mb-4 text-lg md:text-xl transition-colors duration-200 text-gray-900 dark:text-white ${
                   tier.color === "blue"
                     ? "group-hover:text-blue-600"
                     : tier.color === "green"
@@ -105,7 +105,7 @@ export default function Pricing() {
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.2 }}
-                className="text-4xl font-bold mb-4 text-gray-900 dark:text-white"
+                className="text-3xl md:text-4xl font-bold mb-4 text-gray-900 dark:text-white"
               >
                 {tier.price}
               </motion.div>

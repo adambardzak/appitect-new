@@ -73,7 +73,7 @@ export default function Team() {
           transition={{ duration: 0.7 }}
           className="mb-12 max-w-6xl mx-auto"
         >
-          <span className="text-2xl font-light text-gray-900 dark:text-white">
+          <span className="text-xl md:text-2xl font-light text-gray-900 dark:text-white">
             {t("title")}
           </span>
         </motion.div>
@@ -92,11 +92,11 @@ export default function Team() {
                   className={`w-4 h-4 ${member.color} rounded-full mt-2 flex-shrink-0`}
                 ></motion.div>
                 <div className="flex items-center gap-2">
-                  <strong className="text-2xl text-gray-900 dark:text-white">
+                  <strong className="text-xl md:text-2xl text-gray-900 dark:text-white">
                     {member.name}
                   </strong>
                   -
-                  <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
+                  <p className="text-base md:text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
                     {member.description}
                   </p>
                 </div>
@@ -112,11 +112,11 @@ export default function Team() {
           >
             <div className="flex items-center gap-3 mb-6">
               <Coffee className="h-6 w-6 text-gray-600 dark:text-gray-400" />
-              <span className="font-semibold text-xl text-gray-900 dark:text-white">
+              <span className="font-semibold text-lg md:text-xl text-gray-900 dark:text-white">
                 {t("howWeWork.title")}
               </span>
             </div>
-            <div className="space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed text-base">
+            <div className="space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed text-sm md:text-base">
               <p>{t("howWeWork.description1")}</p>
               <p>{t("howWeWork.description2")}</p>
             </div>
