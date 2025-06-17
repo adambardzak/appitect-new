@@ -1,0 +1,122 @@
+{
+    "navigation": {
+        "brand": "appitect",
+        "services": "was wir tun",
+        "contact": "angebot erhalten"
+    },
+    "hero": {
+        "title": "Wir entwickeln Apps, die Menschen tatsächlich nutzen wollen",
+        "description1": "Ein Entwicklerteam, das mehr schaffen wollte als nur großartige Software. Heute entwickeln wir Webanwendungen, mobile Apps und Webseiten, die echte Probleme für echte Menschen lösen.",
+        "description2": "Kein Unternehmens-Bullshit, keine endlosen Meetings, keine \"Synergie\"-Gespräche. Nur sauberer Code, ehrliche Kommunikation und Produkte, die funktionieren.",
+        "cta": "Ihr Projekt starten",
+        "or": "oder",
+        "seeServices": "sehen Sie was wir tun"
+    },
+    "services": {
+        "title": "Was wir tatsächlich tun",
+        "webApps": {
+            "title": "Web-Anwendungen",
+            "description": "Maßgeschneiderte Web-Apps, die tatsächlich funktionieren. Wir kümmern uns um Benutzerkonten, Zahlungen, Datenbanken und all die langweiligen Sachen, damit Ihr Geschäft reibungslos läuft. Denken Sie an Netflix, aber für Ihre spezifischen Bedürfnisse."
+        },
+        "websites": {
+            "title": "Website-Entwicklung",
+            "description": "Professionelle Websites, die gut aussehen und schnell laden. Von einfachen Unternehmensseiten bis hin zu komplexen E-Commerce-Plattformen. Wir schreiben sauberen Code und stellen sicher, dass alles auf allen Geräten funktioniert."
+        },
+        "mobileApps": {
+            "title": "Mobile Apps",
+            "description": "iPhone- und Android-Apps, die nicht schlecht sind. Normalerweise entwickeln wir eine App, die auf beiden Plattformen funktioniert, weil es schneller und günstiger ist. Ihre Kunden werden den Unterschied nicht bemerken."
+        },
+        "dontDo": {
+            "title": "Was wir NICHT tun:",
+            "description": "WordPress-Seiten, Logo-Design, SEO-Beratung oder Krypto-Zeug. Wir sind Entwickler, keine Vermarkter oder Designer (obwohl wir Dinge anständig aussehen lassen können)."
+        }
+    },
+    "team": {
+        "title": "Das Team",
+        "members": {
+            "adam": "Full-Stack-Entwickler",
+            "jan1": "Frontend-Entwickler",
+            "jan2": "Backend- und DevOps-Entwickler",
+            "lubos": "CEO und Projektmanager",
+            "vaclav": "Vertriebsmitarbeiter"
+        },
+        "howWeWork": {
+            "title": "Wie wir arbeiten",
+            "description1": "Wir haben unseren Sitz in Pilsen, arbeiten aber die meiste Zeit remote. Wöchentliche Check-ins statt täglicher Standups. Wir schreiben Tests, verwenden Versionskontrolle und deployen verantwortungsvoll.",
+            "description2": "Wir sind während der Geschäftszeiten auf Slack verfügbar und antworten schnell auf E-Mails. Kein Bullshit, nur gute Kommunikation und zuverlässige Lieferung."
+        }
+    },
+    "pricing": {
+        "title": "Preise",
+        "simple": {
+            "title": "Einfache Web-App",
+            "price": "15k - 30k €",
+            "description": "Grundlegende Webanwendung mit Benutzerkonten, Datenbank und Kernfunktionen. 2-4 Monate.",
+            "features": [
+                "Benutzerauthentifizierung",
+                "Datenbank-Setup",
+                "Basis-Admin-Panel",
+                "Mobile Responsivität"
+            ]
+        },
+        "mobile": {
+            "title": "Mobile App",
+            "price": "25k - 50k €",
+            "description": "iOS- und Android-App mit Backend. App Store-Einreichung inklusive. 3-6 Monate.",
+            "features": [
+                "Cross-Platform-App",
+                "Backend-API",
+                "App Store-Einreichung",
+                "Push-Benachrichtigungen"
+            ]
+        },
+        "complex": {
+            "title": "Komplexes System",
+            "price": "50k+ €",
+            "description": "Unternehmensanwendungen mit Integrationen, erweiterten Funktionen. 6+ Monate.",
+            "features": [
+                "Drittanbieter-Integrationen",
+                "Erweiterte Analytik",
+                "Benutzerdefinierte Workflows",
+                "Laufende Unterstützung"
+            ]
+        }
+    },
+    "contact": {
+        "title": "Möchten Sie mit uns arbeiten?",
+        "goodFit": {
+            "title": "✓ Sie passen gut, wenn:",
+            "items": [
+                "Sie wissen, was Sie entwickeln möchten",
+                "Ihr Budget beträgt 15k+ € (wir sind nicht billig, aber wir sind es wert)",
+                "Sie ehrliches Feedback wollen, nicht nur \"ja, Sir\"",
+                "Sie verstehen, dass gute Software Zeit braucht"
+            ]
+        },
+        "badFit": {
+            "title": "✗ Wahrscheinlich passen Sie nicht, wenn:",
+            "items": [
+                "Sie es \"ASAP\" brauchen",
+                "Sie jedes kleine Detail kontrollieren wollen",
+                "Sie nach der billigsten Option suchen",
+                "Sie 47 Meetings vor dem Start wollen"
+            ]
+        },
+        "cta": {
+            "title": "Bereit anzufangen?",
+            "email": "Schreiben Sie uns an",
+            "emailAddress": "hello@appitect.dev",
+            "tellUs": "und erzählen Sie uns:",
+            "requirements": [
+                "Was Sie entwickeln möchten",
+                "Ihren Zeitplan und Ihr Budget",
+                "Etwas über Ihr Unternehmen"
+            ],
+            "response": "Wir melden uns innerhalb von 2 Werktagen mit einer direkten Antwort."
+        }
+    },
+    "footer": {
+        "copyright": "Appitect",
+        "location": "Prag, Tschechische Republik"
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "navigation": {
+        "brand": "appitect",
+        "services": "co děláme",
+        "contact": "získat nabídku"
+    },
+    "hero": {
+        "title": "Vytváříme aplikace, které lidé skutečně chtějí používat",
+        "description1": "Tým vývojářů, kteří chtěli tvořit víc než jen skvělý software. Dnes vyvíjíme webové aplikace, mobilní aplikace a webové stránky, které řeší skutečné problémy skutečných lidí.",
+        "description2": "Žádné korporátní kecy, nekonečné schůzky ani řeči o \"synergii\". Jen čistý kód, upřímná komunikace a produkty, které fungují.",
+        "cta": "Začít váš projekt",
+        "or": "nebo",
+        "seeServices": "podívejte se co děláme"
+    },
+    "services": {
+        "title": "Co skutečně děláme",
+        "webApps": {
+            "title": "Webové aplikace",
+            "description": "Webové aplikace na míru, které skutečně fungují. Zvládáme uživatelské účty, platby, databáze a všechny nudné věci, aby váš byznys běžel hladce. Představte si Netflix, ale pro vaše specifické potřeby."
+        },
+        "websites": {
+            "title": "Vývoj webových stránek",
+            "description": "Profesionální weby, které vypadají dobře a rychle se načítají. Od jednoduchých firemních stránek po složité e-commerce platformy. Píšeme čistý kód a zajišťujeme, aby vše fungovalo na všech zařízeních."
+        },
+        "mobileApps": {
+            "title": "Mobilní aplikace",
+            "description": "iPhone a Android aplikace, které nestojí za nic. Obvykle vytváříme jednu aplikaci, která funguje na obou platformách, protože je to rychlejší a levnější. Vaši zákazníci nepoznají rozdíl."
+        },
+        "dontDo": {
+            "title": "Co NEDĚLÁME:",
+            "description": "WordPress stránky, návrh log, SEO poradenství nebo krypto věci. Jsme vývojáři, ne marketéři nebo designéři (i když dokážeme věci udělat slušně vypadající)."
+        }
+    },
+    "team": {
+        "title": "Tým",
+        "members": {
+            "adam": "Full-stack vývojář",
+            "jan1": "Frontend vývojář",
+            "jan2": "Backend a DevOps vývojář",
+            "lubos": "CEO a projektový manažer",
+            "vaclav": "Obchodní zástupce"
+        },
+        "howWeWork": {
+            "title": "Jak pracujeme",
+            "description1": "Sídlíme v Plzni, ale většinu času pracujeme remote. Týdenní check-iny místo denních standupů. Píšeme testy, používáme git pro verzování a nasazujeme zodpovědně.",
+            "description2": "Jsme dostupní na Slacku během pracovní doby a rychle odpovídáme na e-maily. Žádné kecy, jen dobrá komunikace a spolehlivé dodání."
+        }
+    },
+    "pricing": {
+        "title": "Ceny",
+        "simple": {
+            "title": "Jednoduchá webová aplikace",
+            "price": "400k - 750k Kč",
+            "description": "Základní webová aplikace s uživatelskými účty, databází a hlavními funkcemi. 2-4 měsíce.",
+            "features": [
+                "Autentifikace uživatelů",
+                "Nastavení databáze",
+                "Základní admin panel",
+                "Mobilní responzivita"
+            ]
+        },
+        "mobile": {
+            "title": "Mobilní aplikace",
+            "price": "625k - 1,25M Kč",
+            "description": "iOS a Android aplikace s backendem. Včetně odeslání do App Store. 3-6 měsíců.",
+            "features": [
+                "Cross-platform aplikace",
+                "Backend API",
+                "Odeslání do App Store",
+                "Push notifikace"
+            ]
+        },
+        "complex": {
+            "title": "Složitý systém",
+            "price": "1,25M Kč+",
+            "description": "Podnikové aplikace s integrací, pokročilými funkcemi. 6+ měsíců.",
+            "features": [
+                "Integrace třetích stran",
+                "Pokročilá analytika",
+                "Vlastní workflow",
+                "Průběžná podpora"
+            ]
+        }
+    },
+    "contact": {
+        "title": "Chcete s námi pracovat?",
+        "goodFit": {
+            "title": "✓ Budeme si rozumět, pokud:",
+            "items": [
+                "Víte, co chcete vytvořit",
+                "Váš rozpočet je 400k+ Kč (nejsme levní, ale stojíme za to)",
+                "Chcete upřímnou zpětnou vazbu, ne jen \"ano, pane\"",
+                "Chápete, že vytvořit dobrý software trvá"
+            ]
+        },
+        "badFit": {
+            "title": "✗ Jděte raději jinam, pokud:",
+            "items": [
+                "Potřebujete to \"ASAP\"",
+                "Chcete kontrolovat každý drobný detail",
+                "Hledáte nejlevnější možnost",
+                "Chcete 47 schůzek před začátkem"
+            ]
+        },
+        "cta": {
+            "title": "Připraveni začít?",
+            "email": "Napište nám na",
+            "emailAddress": "hello@appitect.dev",
+            "tellUs": "a řekněte nám:",
+            "requirements": [
+                "Co chcete vytvořit",
+                "Váš časový plán a rozpočet",
+                "Něco o vašem byznysu"
+            ],
+            "response": "Ozveme se vám do 2 pracovních dnů s odpovědí."
+        }
+    },
+    "footer": {
+        "copyright": "Appitect",
+        "location": "Praha, Česká republika"
+    }
+}

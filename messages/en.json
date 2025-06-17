@@ -1,0 +1,122 @@
+{
+    "navigation": {
+        "brand": "appitect",
+        "services": "what we do",
+        "contact": "get quote"
+    },
+    "hero": {
+        "title": "We build apps that people actually want to use",
+        "description1": "Team of developers who wanted to create more than just a great software. Now we create web apps, mobile apps, and websites that solve real problems for real people.",
+        "description2": "No corporate bullshit, no endless meetings, no \"synergy\" talks. Just clean code, honest communication, and products that work.",
+        "cta": "Start your project",
+        "or": "or",
+        "seeServices": "see what we do"
+    },
+    "services": {
+        "title": "What we actually do",
+        "webApps": {
+            "title": "Web Applications",
+            "description": "Custom web apps that actually work. We handle user accounts, payments, databases, and all the boring stuff so your business can run smoothly. Think Netflix, but for your specific needs."
+        },
+        "websites": {
+            "title": "Website Development",
+            "description": "Professional websites that look good and load fast. From simple business sites to complex e-commerce platforms. We write clean code and make sure everything works on all devices."
+        },
+        "mobileApps": {
+            "title": "Mobile Apps",
+            "description": "iPhone and Android apps that don't suck. We usually build one app that works on both platforms because it's faster and cheaper. Your customers won't know the difference."
+        },
+        "dontDo": {
+            "title": "What we DON'T do:",
+            "description": "WordPress sites, logo design, SEO consulting, or crypto stuff. We're developers, not marketers or designers (though we can make things look decent)."
+        }
+    },
+    "team": {
+        "title": "The team",
+        "members": {
+            "adam": "Full-stack developer",
+            "jan1": "Frontend developer",
+            "jan2": "Backend and DevOps developer",
+            "lubos": "CEO and project manager",
+            "vaclav": "Sales representative"
+        },
+        "howWeWork": {
+            "title": "How we work",
+            "description1": "We're based in Pilsen but work remotely most of the time. Weekly check-ins instead of daily standups. We write tests, use version control, and deploy responsibly.",
+            "description2": "We're available on Slack during business hours and respond to emails quickly. No bullshit, just good communication and reliable delivery."
+        }
+    },
+    "pricing": {
+        "title": "Pricing",
+        "simple": {
+            "title": "Simple Web App",
+            "price": "$15k - $30k",
+            "description": "Basic web application with user accounts, database, and core features. 2-4 months.",
+            "features": [
+                "User authentication",
+                "Database setup",
+                "Basic admin panel",
+                "Mobile responsive"
+            ]
+        },
+        "mobile": {
+            "title": "Mobile App",
+            "price": "$25k - $50k",
+            "description": "iOS and Android app with backend. App Store submission included. 3-6 months.",
+            "features": [
+                "Cross-platform app",
+                "Backend API",
+                "App Store submission",
+                "Push notifications"
+            ]
+        },
+        "complex": {
+            "title": "Complex System",
+            "price": "$50k+",
+            "description": "Enterprise-level applications with integrations, advanced features. 6+ months.",
+            "features": [
+                "Third-party integrations",
+                "Advanced analytics",
+                "Custom workflows",
+                "Ongoing support"
+            ]
+        }
+    },
+    "contact": {
+        "title": "Want to work with us?",
+        "goodFit": {
+            "title": "✓ You're a good fit if:",
+            "items": [
+                "You know what you want to build",
+                "Your budget is $15k+ (we're not cheap, but we're worth it)",
+                "You want honest feedback, not just \"yes sir\"",
+                "You understand good software takes time"
+            ]
+        },
+        "badFit": {
+            "title": "✗ Probably not a good fit if:",
+            "items": [
+                "You need it done \"ASAP\"",
+                "You want to control every tiny detail",
+                "You're shopping for the cheapest option",
+                "You want 47 meetings before starting"
+            ]
+        },
+        "cta": {
+            "title": "Ready to get started?",
+            "email": "Email us at",
+            "emailAddress": "hello@appitect.dev",
+            "tellUs": "and tell us:",
+            "requirements": [
+                "What you want to build",
+                "Your timeline and budget",
+                "A bit about your business"
+            ],
+            "response": "We'll get back to you within 2 business days with a straight answer."
+        }
+    },
+    "footer": {
+        "copyright": "Appitect",
+        "location": "Prague, Czech Republic"
+    }
+}
