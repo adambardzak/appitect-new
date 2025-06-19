@@ -132,7 +132,7 @@ export default function Contact() {
           </div>
           <div className="mb-8 md:text-lg">
             {t("cta.email")}{" "}
-            <span className="bg-white dark:bg-gray-200 text-black px-3 py-2 hover:bg-yellow-200 dark:hover:bg-yellow-300 transition-colors duration-200 cursor-pointer">
+            <span className="bg-white dark:bg-gray-200 text-black px-2 md:px-3 py-1 md:py-2 hover:bg-yellow-200 dark:hover:bg-yellow-300 transition-colors duration-200 cursor-pointer">
               {t("cta.emailAddress")}
             </span>{" "}
             {t("cta.tellUs")}
