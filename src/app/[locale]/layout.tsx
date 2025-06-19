@@ -3,12 +3,57 @@ import "./globals.css";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "../../i18n/routing";
+import React from "react";
 
-export const metadata: Metadata = {
-  title: "v0 App",
-  description: "Created with v0",
-  generator: "v0.dev",
+const SEO = {
+  en: {
+    title: "Appitect",
+    description: "Appitect is your solution for modern web applications.",
+  },
+  de: {
+    title: "Appitect",
+    description: "Appitect ist Ihre Lösung für moderne Webanwendungen.",
+  },
+  cs: {
+    title: "Appitect",
+    description: "Appitect je vaše řešení pro moderní webové aplikace.",
+  },
 };
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { locale: string };
+}): Promise<Metadata> {
+  const { locale } = params;
+  const seo = SEO[locale as keyof typeof SEO] || SEO.en;
+  const baseUrl = "https://www.appitect.eu";
+  return {
+    title: seo.title,
+    description: seo.description,
+    openGraph: {
+      title: seo.title,
+      description: seo.description,
+      url: `${baseUrl}/${locale}`,
+      siteName: seo.title,
+      locale,
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: seo.title,
+      description: seo.description,
+    },
+    alternates: {
+      canonical: `${baseUrl}/${locale}`,
+      languages: {
+        en: `${baseUrl}/en`,
+        de: `${baseUrl}/de`,
+        cs: `${baseUrl}/cs`,
+      },
+    },
+  };
+}
 
 export default async function LocaleLayout({
   children,
@@ -25,6 +70,17 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
+      <head>
+        {/* Hreflang pro všechny jazyky */}
+        <link rel="alternate" href="https://www.appitect.eu/en" hrefLang="en" />
+        <link rel="alternate" href="https://www.appitect.eu/de" hrefLang="de" />
+        <link rel="alternate" href="https://www.appitect.eu/cs" hrefLang="cs" />
+        <link
+          rel="alternate"
+          href="https://www.appitect.eu"
+          hrefLang="x-default"
+        />
+      </head>
       <body>
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>
