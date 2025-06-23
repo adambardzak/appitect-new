@@ -24,11 +24,11 @@
         },
         "mobileApps": {
             "title": "Mobilní aplikace",
-            "description": "iPhone a Android aplikace, které nestojí za nic. Obvykle vytváříme jednu aplikaci, která funguje na obou platformách, protože je to rychlejší a levnější. Vaši zákazníci nepoznají rozdíl."
+            "description": "iPhone a Android aplikace, které šlapou jako hodinky. Obvykle vytváříme jednu aplikaci, která funguje na obou platformách, protože je to rychlejší a levnější. Vaši zákazníci nepoznají rozdíl."
         },
         "dontDo": {
             "title": "Co NEDĚLÁME:",
-            "description": "WordPress stránky, návrh log, SEO poradenství nebo krypto věci. Jsme vývojáři, ne marketéři nebo designéři (i když dokážeme věci udělat slušně vypadající)."
+            "description": "WordPress stránky, návrh log, SEO poradenství nebo krypto věci. Jsme vývojáři, ne marketéři nebo designéři (i když dokážeme udělat věci, které vypadají dobře)."
         }
     },
     "team": {
@@ -116,7 +116,7 @@
         }
     },
     "footer": {
-        "copyright": "Appitect",
-        "location": "Praha, Česká republika"
+        "copyright": "Appitect – provozuje Bitterlove s.r.o., IČO: 21977127",
+        "location": "Plzeň, Česká republika"
     }
 }
