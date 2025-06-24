@@ -1,0 +1,6 @@
+# https://www.appitect.eu
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.appitect.eu/sitemap.xml
