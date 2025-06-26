@@ -2,7 +2,6 @@ import { ImageResponse } from 'next/og';
 import { NextRequest } from 'next/server';
 
 export const runtime = 'edge';
-export const contentType = 'image/png';
 
 export async function GET(req: NextRequest) {
   try {
@@ -115,6 +114,10 @@ export async function GET(req: NextRequest) {
       {
         width: 1200,
         height: 630,
+        headers: {
+          'content-type': 'image/png',
+          'cache-control': 'public, max-age=31536000, immutable'
+        }
       }
     );
   } catch (e) {
