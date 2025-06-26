@@ -38,11 +38,20 @@ export async function generateMetadata({
       siteName: seo.title,
       locale,
       type: "website",
+      images: [
+        {
+          url: `${baseUrl}/api/og?locale=${locale}`,
+          width: 1200,
+          height: 630,
+          alt: `Appitect - ${seo.title}`,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: seo.title,
       description: seo.description,
+      images: [`${baseUrl}/api/og?locale=${locale}`],
     },
     alternates: {
       canonical: `${baseUrl}/${locale}`,
