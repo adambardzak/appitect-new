@@ -1,0 +1,54 @@
+{
+  "technologies": {
+    "title": "Náš technologický stack",
+    "subtitle": "Používáme moderní a osvědčené technologie pro vývoj spolehlivých, škálovatelných a udržitelných řešení pro naše klienty.",
+    "frontend": {
+      "title": "Frontend technologie",
+      "react": "Využíváme plnou sílu React ekosystému včetně moderních vzorů a osvědčených postupů.",
+      "javascript": "Hluboká znalost moderního JavaScriptu a TypeScriptu s důrazem na typovou bezpečnost a výkon.",
+      "ui": "Tvorba responzivních, přístupných a vizuálně atraktivních uživatelských rozhraní s moderními design systémy."
+    },
+    "backend": {
+      "title": "Backend technologie",
+      "spring": "Vývoj robustních, podnikových aplikací s využitím Spring ekosystému.",
+      "databases": "Práce s SQL i NoSQL databázemi podle specifických datových požadavků.",
+      "apis": "Návrh a implementace bezpečných, dobře zdokumentovaných API s komplexním testováním."
+    },
+    "devops": {
+      "title": "DevOps & Cloud",
+      "containerization": "Kontejnerizace aplikací pro konzistentní vývoj, testování a produkční prostředí.",
+      "cloud": "Nasazení a správa aplikací na hlavních cloudových platformách s důrazem na bezpečnost a optimalizaci nákladů.",
+      "infrastructure": "Infrastructure as Code pro opakovatelné, spolehlivé nasazení a správu prostředí."
+    },
+    "architecture": {
+      "title": "Architektura & Postupy",
+      "patterns": {
+        "title": "Architektonické vzory",
+        "description": "Navrhujeme škálovatelné systémy pomocí průmyslově ověřených architektonických vzorů."
+      },
+      "practices": {
+        "title": "Inženýrské postupy",
+        "description": "Dodržujeme principy softwarového řemesla pro zajištění kvalitních výstupů."
+      },
+      "tools": {
+        "title": "Nástroje pro spolupráci",
+        "description": "Používáme moderní nástroje pro efektivní týmovou spolupráci a řízení projektů."
+      }
+    },
+    "other": {
+      "title": "Další expertíza",
+      "mobile": {
+        "title": "Mobilní vývoj",
+        "description": "Vytváříme nativně působící aplikace pro iOS a Android s cross-platform technologiemi."
+      },
+      "ai": {
+        "title": "AI & Data",
+        "description": "Integrujeme nejmodernější AI schopnosti pro rozšíření funkcionality aplikací."
+      },
+      "payments": {
+        "title": "Platby & E-commerce",
+        "description": "Implementace bezpečných platebních řešení a e-commerce funkcionalit."
+      }
+    }
+  }
+}

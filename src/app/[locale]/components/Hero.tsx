@@ -58,10 +58,13 @@ export default function Hero() {
             className="flex flex-col sm:flex-row items-start sm:items-center gap-6"
           >
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-              <button className="bg-black hover:bg-gray-800 dark:bg-white dark:hover:bg-gray-200 text-white dark:text-black font-mono text-base px-8 py-3 transition-all duration-200 hover:shadow-lg flex items-center">
+              <a
+                className="bg-black hover:bg-gray-800 dark:bg-white dark:hover:bg-gray-200 text-white dark:text-black font-mono text-base px-8 py-3 transition-all duration-200 hover:shadow-lg flex items-center"
+                href="#contact"
+              >
                 {t("cta")}
                 <ArrowRight className="ml-2 h-5 w-5 transition-transform duration-200 group-hover:translate-x-1" />
-              </button>
+              </a>
             </motion.div>
             <div className="flex items-center gap-4">
               <span className="text-gray-400 dark:text-gray-500">

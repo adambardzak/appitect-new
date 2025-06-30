@@ -1,0 +1,54 @@
+{
+  "technologies": {
+    "title": "Unser Technologie-Stack",
+    "subtitle": "Wir verwenden moderne, bewährte Technologien, um zuverlässige, skalierbare und wartbare Lösungen für unsere Kunden zu liefern.",
+    "frontend": {
+      "title": "Frontend-Technologien",
+      "react": "Wir nutzen das volle Potenzial des React-Ökosystems, einschließlich moderner Muster und bewährter Praktiken.",
+      "javascript": "Tiefgreifende Expertise in modernem JavaScript und TypeScript mit Schwerpunkt auf Typsicherheit und Leistung.",
+      "ui": "Erstellung reaktionsfähiger, zugänglicher und ästhetischer Benutzeroberflächen mit modernen Design-Systemen."
+    },
+    "backend": {
+      "title": "Backend-Technologien",
+      "spring": "Entwicklung robuster Unternehmensanwendungen mit dem Spring-Ökosystem.",
+      "databases": "Arbeit mit SQL- und NoSQL-Datenbanken entsprechend Ihrer spezifischen Datenanforderungen.",
+      "apis": "Design und Implementierung sicherer, gut dokumentierter APIs mit umfassenden Tests."
+    },
+    "devops": {
+      "title": "DevOps & Cloud",
+      "containerization": "Containerisierung von Anwendungen für konsistente Entwicklungs-, Test- und Produktionsumgebungen.",
+      "cloud": "Bereitstellung und Verwaltung von Anwendungen bei großen Cloud-Anbietern mit Fokus auf Sicherheit und Kostenoptimierung.",
+      "infrastructure": "Infrastructure as Code für wiederholbare, zuverlässige Bereitstellungen und Umgebungsmanagement."
+    },
+    "architecture": {
+      "title": "Architektur & Praktiken",
+      "patterns": {
+        "title": "Architekturmuster",
+        "description": "Entwurf skalierbarer Systeme unter Verwendung industriebewährter Architekturmuster."
+      },
+      "practices": {
+        "title": "Engineering-Praktiken",
+        "description": "Befolgung von Software-Handwerks-Prinzipien zur Sicherstellung hochwertiger Lieferungen."
+      },
+      "tools": {
+        "title": "Kollaborationstools",
+        "description": "Verwendung moderner Tools für effiziente Teamzusammenarbeit und Projektmanagement."
+      }
+    },
+    "other": {
+      "title": "Zusätzliche Expertise",
+      "mobile": {
+        "title": "Mobile Entwicklung",
+        "description": "Erstellung nativer Erfahrungen für iOS und Android mit plattformübergreifenden Technologien."
+      },
+      "ai": {
+        "title": "KI & Daten",
+        "description": "Integration modernster KI-Funktionen zur Verbesserung der Anwendungsfunktionalität."
+      },
+      "payments": {
+        "title": "Zahlungen & E-Commerce",
+        "description": "Implementierung sicherer Zahlungslösungen und E-Commerce-Funktionalität."
+      }
+    }
+  }
+}

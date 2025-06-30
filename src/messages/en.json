@@ -1,0 +1,54 @@
+{
+  "technologies": {
+    "title": "Our Technology Stack",
+    "subtitle": "We use modern, battle-tested technologies to deliver reliable, scalable, and maintainable solutions for our clients.",
+    "frontend": {
+      "title": "Frontend Technologies",
+      "react": "We leverage the full power of React ecosystem including modern patterns and best practices.",
+      "javascript": "Deep expertise in modern JavaScript and TypeScript with emphasis on type safety and performance.",
+      "ui": "Creating responsive, accessible, and beautiful user interfaces with modern design systems."
+    },
+    "backend": {
+      "title": "Backend Technologies",
+      "spring": "Building robust, enterprise-grade applications with the Spring ecosystem.",
+      "databases": "Working with both SQL and NoSQL databases to fit your specific data requirements.",
+      "apis": "Designing and implementing secure, well-documented APIs with comprehensive testing."
+    },
+    "devops": {
+      "title": "DevOps & Cloud",
+      "containerization": "Containerizing applications for consistent development, testing, and production environments.",
+      "cloud": "Deploying and managing applications on major cloud providers with focus on security and cost optimization.",
+      "infrastructure": "Infrastructure as Code for repeatable, reliable deployments and environment management."
+    },
+    "architecture": {
+      "title": "Architecture & Practices",
+      "patterns": {
+        "title": "Architecture Patterns",
+        "description": "Designing scalable systems using industry-proven architectural patterns."
+      },
+      "practices": {
+        "title": "Engineering Practices",
+        "description": "Following software craftsmanship principles to ensure high-quality deliverables."
+      },
+      "tools": {
+        "title": "Collaboration Tools",
+        "description": "Using modern tools for efficient team collaboration and project management."
+      }
+    },
+    "other": {
+      "title": "Additional Expertise",
+      "mobile": {
+        "title": "Mobile Development",
+        "description": "Creating native-like experiences for iOS and Android with cross-platform technologies."
+      },
+      "ai": {
+        "title": "AI & Data",
+        "description": "Integrating cutting-edge AI capabilities to enhance application functionality."
+      },
+      "payments": {
+        "title": "Payment & Commerce",
+        "description": "Implementing secure payment solutions and e-commerce functionality."
+      }
+    }
+  }
+}
